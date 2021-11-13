@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ayoubc.github.io/hashcode-mock-judge-system-fe",
-  "name": "hashcode-mock-judge-system-fe",
+  "homepage": "https://ayoubc.github.io/hashcode-fe",
+  "name": "hashcode-fe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

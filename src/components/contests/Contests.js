@@ -25,11 +25,3 @@ const Contests = ({ onNewSubmission }) => {
 }
 
 export default Contests;
-
-
-/* <a target="_blank" href="https://storage.googleapis.com/coding-competitions.appspot.com/HC/2020/hashcode_2020_online_qualification_round.pdf" >
-                    <span class="mdc-button__label">View problem</span>
-                </a>
-                <a target="_blank" href="https://storage.googleapis.com/coding-competitions.appspot.com/HC/2020/qualification_round_2020.in.zip">
-                    <span class="mdc-button__label">Download file</span>
-                </a>  */
