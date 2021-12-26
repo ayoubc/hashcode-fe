@@ -43,13 +43,13 @@ const SubmissionForm = ({ show, handleClose, onNewSubmission }) => {
         for (let key in selectedFiles) {
             const file = selectedFiles[key];
             if (file) {
-                formData.append(key, file, file.name);
+                formData.append("file", file, file.name);
             }
         }
 
         try {
             setLoading(true);
-            const response = await api.post("/files-upload", formData);
+            const response = await api.post("/api/v1/2019/qualifications", formData);
             const { data } = response;
             
             if (data.status === 500) {
